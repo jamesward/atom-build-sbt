@@ -1,8 +1,9 @@
-# Gradle runner for Atom
-[![Build Status](https://travis-ci.org/noseglid/atom-build-gulp.svg)](https://travis-ci.org/noseglid/atom-build-gradle)
-[![Gitter chat](https://badges.gitter.im/noseglid/atom-build.svg)](https://gitter.im/noseglid/atom-build)
+# sbt runner for Atom
 
-Uses the [atom-build](https://github.com/noseglid/atom-build) package to execute
-gradle builds in the `Atom` editor.
+
+
+Uses the [atom-build](https://github.com/noseglid/atom-build) package to execute sbt builds in the `Atom` editor.
 
 This package requires [atom-build](https://github.com/noseglid/atom-build) to be installed.
+
+Forked from: https://github.com/noseglid/atom-build-gradle

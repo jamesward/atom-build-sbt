@@ -1,15 +1,15 @@
 {
-  "name": "build-gradle",
-  "version": "0.3.0",
-  "description": "Runs Gradle builds",
-  "repository": "https://github.com/noseglid/atom-build-gradle",
+  "name": "build-sbt",
+  "version": "0.0.1",
+  "description": "Runs sbt builds",
+  "repository": "https://github.com/jamesward/atom-build-sbt",
   "license": "MIT",
   "engines": {
     "atom": "^1.0.0"
   },
   "providedServices": {
     "builder": {
-      "description": "Runs Gradle build",
+      "description": "Runs sbt build",
       "versions": {
         "1.0.0": "provideBuilder"
       }
@@ -28,9 +28,10 @@
   "keywords": [
     "build",
     "compile",
-    "gradle",
+    "sbt",
+    "scala",
     "java",
     "productivity"
   ],
-  "main": "lib/gradle.js"
+  "main": "lib/sbt.js"
 }
