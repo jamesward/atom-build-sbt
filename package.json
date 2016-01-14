@@ -11,27 +11,16 @@
     "builder": {
       "description": "Runs sbt build",
       "versions": {
-        "1.0.0": "provideBuilder"
+        "2.0.0": "provideBuilder"
       }
     }
-  },
-  "dependencies": {
-    "bluebird": "^2.10.2"
-  },
-  "devDependencies": {
-    "jshint": "^2.5.11",
-    "jscs": "^1.9.0"
-  },
-  "scripts": {
-    "test": "jscs lib/*.js && jshint lib/*.js"
   },
   "keywords": [
     "build",
     "compile",
     "sbt",
     "scala",
-    "java",
-    "productivity"
+    "java"
   ],
   "main": "lib/sbt.js"
 }
