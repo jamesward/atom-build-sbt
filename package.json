@@ -1,6 +1,6 @@
 {
   "name": "build-sbt",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Runs sbt builds",
   "repository": "https://github.com/jamesward/atom-build-sbt",
   "license": "MIT",
